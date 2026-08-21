@@ -1,0 +1,313 @@
+{
+  "group": 6,
+  "entries": [
+    {
+      "code": "tt",
+      "locale": "tt-Cyrl",
+      "language": "Tatar",
+      "nativeName": "татар теле",
+      "translation": "Син кигән стиль. Син үзең белән йөрткән мәдәният.",
+      "transliteration": "Sin kigän stil. Sin üzeñ belän yörtkän mädäniyät.",
+      "confidence": "medium",
+      "reviewStatus": "native-review-required",
+      "note": "Informal singular; мәдәният preferred over Russian культура."
+    },
+    {
+      "code": "te",
+      "locale": "te",
+      "language": "Telugu",
+      "nativeName": "తెలుగు",
+      "translation": "మీరు ధరించే శైలి. మీరు వెంట తీసుకెళ్లే సంస్కృతి.",
+      "transliteration": "Mīru dhariñcē śaili. Mīru veṇṭa tīsukeḷḷē saṃskṛti.",
+      "confidence": "high",
+      "reviewStatus": "native-review-required",
+      "note": "Respectful మీరు; వెంట తీసుకెళ్లే conveys carrying with you."
+    },
+    {
+      "code": "tg",
+      "locale": "tg-Cyrl",
+      "language": "Tajik",
+      "nativeName": "тоҷикӣ",
+      "translation": "Услубе, ки мепӯшӣ. Фарҳанге, ки бо худ мебарӣ.",
+      "transliteration": "Uslube, ki mepūshī. Farhange, ki bo khud mebarī.",
+      "confidence": "high",
+      "reviewStatus": "native-review-required",
+      "note": "Informal singular; бо худ preserves identity metaphor."
+    },
+    {
+      "code": "tl",
+      "locale": "tl",
+      "language": "Tagalog",
+      "nativeName": "Tagalog",
+      "translation": "Estilong suot mo. Kulturang taglay mo.",
+      "transliteration": null,
+      "confidence": "high",
+      "reviewStatus": "native-review-required",
+      "note": "Taglay means possess or embody; established estilo and kultura retained."
+    },
+    {
+      "code": "th",
+      "locale": "th",
+      "language": "Thai",
+      "nativeName": "ไทย",
+      "translation": "สไตล์ที่คุณสวมใส่ วัฒนธรรมที่คุณพกพา",
+      "transliteration": "Satai thi khun suam sai. Watthanatham thi khun phok pha.",
+      "confidence": "high",
+      "reviewStatus": "native-review-required",
+      "note": "Standard fashion term สไตล์; natural Thai slogan spacing."
+    },
+    {
+      "code": "bo",
+      "locale": "bo-Tibt",
+      "language": "Tibetan",
+      "nativeName": "བོད་སྐད་",
+      "translation": "ཁྱོད་ཀྱིས་གྱོན་པའི་བཟོ་ལྟ། ཁྱོད་ཀྱིས་འཁྱེར་བའི་རིག་གཞུང་།",
+      "transliteration": "khyod kyis gyon pa'i bzo lta/ khyod kyis 'khyer ba'i rig gzhung /",
+      "confidence": "medium",
+      "reviewStatus": "native-review-required",
+      "note": "Standard Written Tibetan in Uchen; slogan rhythm merits native review."
+    },
+    {
+      "code": "ti",
+      "locale": "ti-Ethi",
+      "language": "Tigrinya",
+      "nativeName": "ትግርኛ",
+      "translation": "ቅዲ ትኽደኖ። ባህሊ ትስከሞ።",
+      "transliteration": "Qədi təḵədano. Bahli təsəkamo.",
+      "confidence": "medium",
+      "reviewStatus": "native-review-required",
+      "note": "Masculine singular generic; regional native review advised."
+    },
+    {
+      "code": "to",
+      "locale": "to",
+      "language": "Tongan",
+      "nativeName": "lea faka-Tonga",
+      "translation": "Ko e founga teunga ʻokú ke tui. Ko e anga fakafonua ʻokú ke fua.",
+      "transliteration": null,
+      "confidence": "low",
+      "reviewStatus": "native-review-required",
+      "note": "Native paraphrase ‘way of dressing’; fua is the candidate for bearing culture; native review remains required."
+    },
+    {
+      "code": "tn",
+      "locale": "tn",
+      "language": "Tswana",
+      "nativeName": "Setswana",
+      "translation": "Setaele se o se aparang. Setso se o se tshotse.",
+      "transliteration": null,
+      "confidence": "medium",
+      "reviewStatus": "native-review-required",
+      "note": "Standard adapted setaele; parallel relative concords."
+    },
+    {
+      "code": "ts",
+      "locale": "ts",
+      "language": "Tsonga",
+      "nativeName": "itsonga",
+      "translation": "Xitayili lexi u xi ambalaka. Ndhavuko lowu u wu rhwalaka.",
+      "transliteration": null,
+      "confidence": "high",
+      "reviewStatus": "native-review-required",
+      "note": "Adapted xitayili; class concords preserve parallel syntax."
+    },
+    {
+      "code": "tk",
+      "locale": "tk-Latn",
+      "language": "Turkmen",
+      "nativeName": "Türkmençe",
+      "translation": "Geýýän stiliň. Özüň bilen göterýän medeniýetiň.",
+      "transliteration": null,
+      "confidence": "high",
+      "reviewStatus": "native-review-required",
+      "note": "Informal singular; explicit ‘with you’ prevents physical-only reading."
+    },
+    {
+      "code": "tr",
+      "locale": "tr",
+      "language": "Turkish",
+      "nativeName": "Türkçe",
+      "translation": "Giydiğin tarz. Taşıdığın kültür.",
+      "transliteration": null,
+      "confidence": "high",
+      "reviewStatus": "native-review-required",
+      "note": "Informal singular; native-standard tarz creates clean balance."
+    },
+    {
+      "code": "tw",
+      "locale": "tw",
+      "language": "Twi",
+      "nativeName": "Twi",
+      "translation": "Style a wohyɛ. Amammerɛ a wosoa.",
+      "transliteration": null,
+      "confidence": "low",
+      "reviewStatus": "native-review-required",
+      "note": "Asante Twi; style retained as routine contemporary loan; native campaign review required."
+    },
+    {
+      "code": "ug",
+      "locale": "ug-Arab",
+      "language": "Uyghur",
+      "nativeName": "ئۇيغۇرچە",
+      "translation": "سىز كىيگەن ئۇسلۇب. سىز ئېلىپ يۈرگەن مەدەنىيەت.",
+      "transliteration": "Siz kiygen uslub. Siz ëlip yürgen medeniyet.",
+      "confidence": "high",
+      "reviewStatus": "native-review-required",
+      "note": "Respectful سىز; standard Arabic-script Uyghur."
+    },
+    {
+      "code": "uk",
+      "locale": "uk-Cyrl",
+      "language": "Ukrainian",
+      "nativeName": "українська",
+      "translation": "Стиль, який носиш. Культура, яку несеш.",
+      "transliteration": "Styl, yakyi nosysh. Kultura, yaku nesesh.",
+      "confidence": "high",
+      "reviewStatus": "native-review-required",
+      "note": "Pronoun omitted; носиш and несеш create deliberate sound balance."
+    },
+    {
+      "code": "ur",
+      "locale": "ur-Arab",
+      "language": "Urdu",
+      "nativeName": "اردو",
+      "translation": "انداز جو آپ پہنتے ہیں۔ ثقافت جو آپ ساتھ لیے چلتے ہیں۔",
+      "transliteration": "Andāz jo āp pahante hain. Saqāfat jo āp sāth liye chalte hain.",
+      "confidence": "medium",
+      "reviewStatus": "native-review-required",
+      "note": "Formal آپ; ساتھ لیے چلتے ہیں expresses culture carried through life."
+    },
+    {
+      "code": "uz",
+      "locale": "uz-Latn",
+      "language": "Uzbek",
+      "nativeName": "Oʻzbekcha",
+      "translation": "Kiyadigan uslubing. Olib yuradigan madaniyating.",
+      "transliteration": null,
+      "confidence": "high",
+      "reviewStatus": "native-review-required",
+      "note": "Informal singular; matching habitual participles."
+    },
+    {
+      "code": "ve",
+      "locale": "ve",
+      "language": "Venda",
+      "nativeName": "Tshivenḓa",
+      "translation": "Tshitaila tshine wa ambara. Mvelele ine wa hwala.",
+      "transliteration": null,
+      "confidence": "low",
+      "reviewStatus": "native-review-required",
+      "note": "Adapted tshitaila; noun-class concord and campaign register need native review."
+    },
+    {
+      "code": "vi",
+      "locale": "vi",
+      "language": "Vietnamese",
+      "nativeName": "Tiếng Việt",
+      "translation": "Phong cách bạn mặc. Văn hóa bạn mang theo.",
+      "transliteration": null,
+      "confidence": "high",
+      "reviewStatus": "native-review-required",
+      "note": "Natural elliptical advertising syntax; mang theo means carry along."
+    },
+    {
+      "code": "vo",
+      "locale": "vo",
+      "language": "Volapük",
+      "nativeName": "Volapük",
+      "translation": "Maget, keli lenlabol. Kuliv, keli polol.",
+      "transliteration": null,
+      "confidence": "medium",
+      "reviewStatus": "native-review-required",
+      "note": "Modern Volapük; accusative relative keli required for both objects."
+    },
+    {
+      "code": "cy",
+      "locale": "cy",
+      "language": "Welsh",
+      "nativeName": "Cymraeg",
+      "translation": "Arddull rydych chi’n ei wisgo. Diwylliant rydych chi’n ei gario.",
+      "transliteration": null,
+      "confidence": "high",
+      "reviewStatus": "native-review-required",
+      "note": "Neutral formal or plural chi; masculine mutations checked."
+    },
+    {
+      "code": "wa",
+      "locale": "wa",
+      "language": "Walloon",
+      "nativeName": "walon",
+      "translation": "Li stîle ki ti poites. Li culteure ki ti moennes avou twè.",
+      "transliteration": null,
+      "confidence": "low",
+      "reviewStatus": "native-review-required",
+      "note": "Rfondou walon chosen; strong regional variation makes native review essential."
+    },
+    {
+      "code": "wo",
+      "locale": "wo",
+      "language": "Wolof",
+      "nativeName": "Wolof",
+      "translation": "Melokaan wi ngay sol. Cosaan wi ngay yor.",
+      "transliteration": null,
+      "confidence": "medium",
+      "reviewStatus": "native-review-required",
+      "note": "Melokaan means look or style; cosaan foregrounds heritage and roots."
+    },
+    {
+      "code": "xh",
+      "locale": "xh",
+      "language": "Xhosa",
+      "nativeName": "isiXhosa",
+      "translation": "Isimbo osinxibayo. Inkcubeko oyithweleyo.",
+      "transliteration": null,
+      "confidence": "high",
+      "reviewStatus": "native-review-required",
+      "note": "Parallel relative clauses; object concords si- and yi-."
+    },
+    {
+      "code": "yi",
+      "locale": "yi-Hebr",
+      "language": "Yiddish",
+      "nativeName": "ייִדיש",
+      "translation": "דער סטיל וואָס דו טראָגסט. די קולטור וואָס דו טראָגסט מיט זיך.",
+      "transliteration": "Der stil vos du trogst. Di kultur vos du trogst mit zikh.",
+      "confidence": "high",
+      "reviewStatus": "native-review-required",
+      "note": "Informal singular; standard YIVO orthography."
+    },
+    {
+      "code": "yo",
+      "locale": "yo",
+      "language": "Yoruba",
+      "nativeName": "Yorùbá",
+      "translation": "Àrà tí o wọ̀. Àṣà tí o gbé.",
+      "transliteration": null,
+      "confidence": "high",
+      "reviewStatus": "native-review-required",
+      "note": "Full tone marks; gbé intentionally supports carry and live double meaning."
+    },
+    {
+      "code": "za",
+      "locale": "za-Latn",
+      "language": "Zhuang",
+      "nativeName": "Vahcuengh",
+      "translation": "Yiengh mwngz daenj. Vwnzva mwngz dawz.",
+      "transliteration": null,
+      "confidence": "low",
+      "reviewStatus": "native-review-required",
+      "note": "Standard Zhuang, Wuming or Yongbei-based 1982 Latin orthography; expert review essential."
+    },
+    {
+      "code": "zu",
+      "locale": "zu",
+      "language": "Zulu",
+      "nativeName": "isiZulu",
+      "translation": "Isitayela osigqokayo. Isiko olithwalayo.",
+      "transliteration": null,
+      "confidence": "high",
+      "reviewStatus": "native-review-required",
+      "note": "Parallel relative clauses; object concords si- and li-."
+    }
+  ]
+}

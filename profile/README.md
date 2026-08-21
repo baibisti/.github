@@ -8,6 +8,10 @@
 <h1 align="center">Bisti</h1>
 
 <p align="center">
+  <strong>Style you wear. Culture you carry.</strong>
+</p>
+
+<p align="center">
   <strong>Wardrobe software for people who love clothing.</strong>
 </p>
 
@@ -23,5 +27,7 @@
 ### How we build
 
 Useful over noisy. Personal over prescriptive. Evidence over hype.
+
+[Motto catalog: all 183 ISO 639-1 entries.](./MOTTO_TRANSLATIONS.md)
 
 Public repositories and technical documentation will appear here when ready.
