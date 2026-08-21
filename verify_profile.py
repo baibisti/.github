@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import os
 import re
 import subprocess
 from pathlib import Path
@@ -74,18 +75,32 @@ def main() -> None:
     worktree = git_output("rev-parse", "--is-inside-work-tree") == "true"
     origin = git_output("remote", "get-url", "origin")
     valid_checkout = worktree and origin in EXPECTED_ORIGINS
+    remote_main = git_output("ls-remote", "--exit-code", "origin", "refs/heads/main")
+    visibility = subprocess.run(
+        ["gh", "repo", "view", "baibisti/.github", "--json", "visibility", "--jq", ".visibility"],
+        check=False,
+        capture_output=True,
+        text=True,
+    ) if valid_checkout else None
+    published = valid_checkout and remote_main is not None and visibility is not None and visibility.returncode == 0 and visibility.stdout.strip() == "PUBLIC"
+    archive_mode = os.environ.get("BISTI_PROFILE_ARCHIVE_MODE") == "1"
     status = manifest.get("status")
-    if status == "approved-github-profile-delivery" and not valid_checkout:
+    if status == "approved-github-profile-delivery" and not valid_checkout and not archive_mode:
         raise SystemExit("Approved profile status requires expected baibisti/.github checkout")
-    if not valid_checkout and status != "ready-for-github-repository-staging":
+    if not valid_checkout and not archive_mode and status != "ready-for-github-repository-staging":
         raise SystemExit("Unpublished profile must remain explicitly staged")
     if status not in {"ready-for-github-repository-staging", "approved-github-profile-delivery"}:
         raise SystemExit(f"Unknown profile status: {status}")
+    publication = manifest.get("publication")
+    if publication == "published-public-github-organization-profile" and not published and not archive_mode:
+        raise SystemExit("Published status requires public baibisti/.github remote main")
+    if published and publication != "published-public-github-organization-profile":
+        raise SystemExit("Public GitHub profile exists but publication manifest is stale")
 
     print(json.dumps({
         "ok": True,
         "status": status,
-        "publication": "repository checkout verified; push not proven" if valid_checkout else "staged; not published",
+        "publication": "portable archive; remote proof not rerun" if archive_mode else "published public organization profile" if published else "repository checkout verified; push not proven" if valid_checkout else "staged; not published",
         "origin": origin,
         "assets": len(records),
     }, indent=2))

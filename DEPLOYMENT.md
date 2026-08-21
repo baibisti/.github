@@ -1,14 +1,14 @@
 # Bisti GitHub organization profile — deployment handoff
 
-Status: staged, verified, not published.
+Status: published and verified on `github.com/baibisti`.
 
 GitHub requires an organization repository named `.github`; `profile/README.md` then becomes the public organization profile. This folder already has required repository-root layout.
 
-Deployment requires explicit repository authority:
+Deployment record:
 
-1. Create or clone `github.com/baibisti/.github`.
-2. Copy this folder contents to that repository root without changing `profile/assets/` paths.
-3. Run `python3 verify_profile.py`.
-4. Review, commit, and push through authorized GitHub credentials.
+1. Public repository: `github.com/baibisti/.github`.
+2. Default branch: `main`.
+3. Profile source: `profile/README.md` with repository-local GIF/poster assets.
+4. Verification: `python3 verify_profile.py`; public organization HTML checked after push.
 
-When checkout has expected `origin`, regeneration promotes local manifest from `ready-for-github-repository-staging` to `approved-github-profile-delivery`. Push/public visibility remain human-verified external gates.
+Checkout uses expected `origin`. Generator records `published-public-github-organization-profile` only when remote `main` exists and GitHub reports `PUBLIC` visibility.

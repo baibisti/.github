@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "status": "ready-for-github-repository-staging",
+  "status": "approved-github-profile-delivery",
   "approvedAt": "2026-08-21",
-  "publication": "not-published-repository-missing-or-unverified",
+  "publication": "published-public-github-organization-profile",
   "expectedRepository": "github.com/baibisti/.github",
-  "observedOrigin": null,
+  "observedOrigin": "https://github.com/baibisti/.github.git",
   "motion": "finite one-shot",
   "reducedMotion": "static poster",
   "assets": [
