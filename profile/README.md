@@ -8,7 +8,7 @@
 <h1 align="center">Bisti</h1>
 
 <p align="center">
-  <strong>Wardrobe software for people who love clothing.</strong>
+  <strong>Style you wear. Culture you carry.</strong>
 </p>
 
 <p align="center">
@@ -17,11 +17,5 @@
   We’re building tools to explore looks, keep references,
   and shape a personal wardrobe.
 </p>
-
----
-
-### How we build
-
-Useful over noisy. Personal over prescriptive. Evidence over hype.
 
 Public repositories and technical documentation will appear here when ready.
