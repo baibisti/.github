@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "status": "ready-for-github-repository-staging",
+  "approvedAt": "2026-08-21",
+  "publication": "not-published-repository-missing-or-unverified",
+  "expectedRepository": "github.com/baibisti/.github",
+  "observedOrigin": null,
+  "motion": "finite one-shot",
+  "reducedMotion": "static poster",
+  "assets": [
+    {
+      "name": "bisti-chromatic-wardrobe.gif",
+      "source": "docs/branding/bisti/folded-dot-production/github-profile/bisti-chromatic-wardrobe.gif",
+      "delivered": ".github/profile/assets/bisti-chromatic-wardrobe.gif",
+      "sha256": "6230056d708402e0c5b9fb2d19db40662907a537efe64c85b1f423ac9df2b37b",
+      "bytes": 806213
+    },
+    {
+      "name": "bisti-chromatic-wardrobe-poster.png",
+      "source": "docs/branding/bisti/folded-dot-production/github-profile/bisti-chromatic-wardrobe-poster.png",
+      "delivered": ".github/profile/assets/bisti-chromatic-wardrobe-poster.png",
+      "sha256": "414d2ce1181a9e1dd97b6ac23f210250c221c22ee86ac7a4417790a201693d9b",
+      "bytes": 7542
+    }
+  ]
+}
