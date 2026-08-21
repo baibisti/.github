@@ -12,15 +12,3 @@ Deployment record:
 4. Verification: `python3 verify_profile.py`; public organization HTML checked after push.
 
 Checkout uses expected `origin`. Generator records `published-public-github-organization-profile` only when remote `main` exists and GitHub reports `PUBLIC` visibility.
-
-## Motto catalog
-
-Approved English master: `Style you wear. Culture you carry.`
-
-- Source parts: `profile/i18n/parts/*.json`.
-- Deterministic build: `python3 build_motto_catalog.py`.
-- Human catalog: `profile/MOTTO_TRANSLATIONS.md`.
-- Machine catalog: `profile/motto-translations.json`.
-- Verification: `python3 verify_profile.py` checks all 183 ISO 639-1 entries and exact generated-byte parity.
-
-Catalog is public working material, not approved localized campaign copy. Each market still requires recorded native-copy review; Navajo remains explicitly blocked until fluent Diné review supplies defensible wording.
