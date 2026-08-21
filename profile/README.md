@@ -12,14 +12,10 @@
 </p>
 
 <p align="center">
-  Bisti takes its name from Sotavento Kriolu usage related to
-  <em>vestir</em> — getting dressed.
+  Bisti takes its name from Kriolu spoken in Cabo Verde:
+  <em>bisti</em> means getting dressed.
   We’re building tools to explore looks, keep references,
   and shape a personal wardrobe.
-</p>
-
-<p align="center">
-  <code>iOS private alpha</code> · <code>Web in development</code>
 </p>
 
 ---
