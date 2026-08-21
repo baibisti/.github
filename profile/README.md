@@ -17,5 +17,3 @@
   We’re building tools to explore looks, keep references,
   and shape a personal wardrobe.
 </p>
-
-Public repositories and technical documentation will appear here when ready.

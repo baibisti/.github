@@ -20,6 +20,15 @@ EXPECTED_ORIGINS = {
     "https://github.com/baibisti/.github.git",
     "git@github.com:baibisti/.github.git",
 }
+MOTTO = "Style you wear. Culture you carry."
+FORBIDDEN_PROFILE_COPY = (
+    "Wardrobe software for people who love clothing.",
+    "### How we build",
+    "Useful over noisy. Personal over prescriptive. Evidence over hype.",
+    "Public repositories and technical documentation will appear here when ready.",
+    "MOTTO_TRANSLATIONS",
+    "motto-translations",
+)
 
 
 def sha256(path: Path) -> str:
@@ -51,6 +60,11 @@ def main() -> None:
     for token in required:
         if token not in source:
             raise SystemExit(f"Profile README contract missing: {token}")
+    if source.count(MOTTO) != 1:
+        raise SystemExit("Approved profile motto must appear exactly once")
+    for token in FORBIDDEN_PROFILE_COPY:
+        if token in source:
+            raise SystemExit(f"Forbidden legacy/profile copy present: {token}")
     alt = re.search(r'<img\s+[^>]*alt="([^"]+)"', source, re.IGNORECASE)
     if alt is None or len(alt.group(1).strip()) < 40:
         raise SystemExit("Profile image alternative text incomplete")
